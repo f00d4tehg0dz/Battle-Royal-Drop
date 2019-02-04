@@ -1,0 +1,25 @@
+{
+	"spawnitems":[
+      ["Junk Junction", "B", "1", -1655.4345154183047, 954.7000122070312, "junk-junction"],
+      ["Haunted Hills", "B", "3", -1655.4345154183047, 480.9999694824219, "haunted-hills"],
+      ["Pleasant Park", "C", "3", -1708.9710557861897, 487.4999694824219, "pleasant-park"],
+      ["Lazy Links", "F", "3", -1564.3723626430242, 466.4999694824219, "lazy-links"],
+      ["Tomato Temple", "G", "4", -2023.5089396320027, 843.300048828125, "tomato-temple"],
+      ["Wailing Woods", "I", "3", -2077.545821498653, 796.800048828125, "wailing-woods"],
+      ["Lonely Lodge", "J", "5", -2270.3018093566625, 805.8001098632812, "lonely-lodge"],
+      ["Zarbot's BLock", "H", "2", -2178.864356665419, 1560.2001342773438, "zarbots-block"],
+      ["Retail Row", "H", "6",  -1826.900016784668, 1809.8511378879443, "retail-row"],
+      ["Paradise Palms", "I", "8", -1479.3734478034255, 1633.0001220703125, "paradise-palms"],
+      ["Lucky Landing", "F", "10", -1382.4054767646899, 2236.949996948242, "lucky-landing"],
+      ["Happy Hamlet", "D", "9", -1216.6488232608128, 2149, "happy-hamlet"],
+      ["Fatal Fields", "G", "8", -918.8179731263963, 1702, "fatal-fields"],
+      ["Dusty Divot", "F", "5", -1211.6726007218094, 1357.5999755859375, "dusty-divot"],
+      ["Loot Lake", "E", "4", -757.6058646172363, 2156, "loot-lake"],
+      ["Tilted Towers", "D", "5", -778.1218772520174, 889.5999755859375, "tilted-towers"],
+      ["Snobby Shores", "A", "5", -449.8978540619946, 1311.5999755859375, "snobby-shores"],
+      ["Shifty Shafts", "D", "7", -989.305467000737, 414, "shifty-shafts"],
+      ["Salty Springs",  "F", "7", -1874.539598566718, 1410.7998046875, "salty-springs"],
+      ["Polar Peak", "C", "8", -621.7639255108493, 2042.7998046875, "polar-peak"],
+      ["Frosty Flights", "B", "8", -1538.4911513641555, 462.90000915527344, "frosty-flights"]
+    ]
+}
