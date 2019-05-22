@@ -1,0 +1,18 @@
+{
+	"spawnitems":[
+		["Primorsk", "A", "6", -2346, 646, "primorsk"],
+		["Gatka", "C", "4", -1540, 887, "gatka"],
+		["Pochinki", "D", "4", -1582, 1425, "pochinki"],
+		["Georgopol", "B", "3", -1024, 731, "georgopol"],
+		["Rozhok", "D", "3", -1156, 1574, "rozhok"],
+		["Yasnaya Polyana", "F", "3", -962, 2106, "yasnaya-polyana"],
+		["Zharki", "B", "2", -538, 484, "zharki"],
+		["Serverny", "D", "2", -530, 1490, "severny"],
+		["Stalber", "F", "2", -530, 2204, "stalber"],
+		["Lipovka", "G", "4", -1294, 2698, "lipovka"],
+		["Sosnovka Military Base", "E", "7", -2455, 1716, "military-base"],
+		["Novorepnoye", "F", "6", -2347, 2365, "novo"],
+		["Mylta", "F", "5", -1852, 2319, "mylta"],
+		["Mylta Power", "G", "5", -1698, 2796, "mylta-power"]
+    ]
+}

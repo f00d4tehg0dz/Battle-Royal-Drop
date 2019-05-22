@@ -1,0 +1,30 @@
+{
+	"spawnitems":[
+		["Primorsk", "A", "6", -2346, 646, "puerto-paraiso"],
+		["Gatka", "C", "4", -1540, 887, "los-higos"],
+		["Pochinki", "D", "4", -1582, 1425, "minas-del-sur"],
+		["Georgopol", "B", "3", -1024, 731, "complejo"],
+		["Rozhok", "D", "3", -1156, 1574, "impala"],
+		["Yasnaya Polyana", "F", "3", -962, 2106, "puerto"],
+		["Zharki", "B", "2", -538, 484, "minas-del-valle"],
+		["Serverny", "D", "2", -530, 1490, "valle"],
+		["Stalber", "F", "2", -530, 2204, "ladrillera"],
+		["Lipovka", "G", "4", -1294, 2698, "chumacera"],
+		["Sosnovka Military Base", "E", "7", -2455, 1716, "leones"],
+		["Novorepnoye", "F", "6", -2347, 2365, "pecado"],
+		["Mylta", "F", "5", -1852, 2319, "electrica"],
+		["Mylta Power", "G", "5", -1698, 2796, "bienaventurada"],
+		["Cementerio Municipal", "G", "5", -1698, 2796, "cementerio"],
+		["Minas de Plata", "G", "5", -1698, 2796, "minas"],
+		["Desguace", "G", "5", -1698, 2796, "desguace"],
+		["El Azahar", "G", "5", -1698, 2796, "azahar"],
+		["Campo Militar", "G", "5", -1698, 2796, "campo"],
+		["Tierra Bronca", "G", "5", -1698, 2796, "tierra"],
+		["Cruz Del Valla", "G", "5", -1698, 2796, "cruz"],
+		["Torre Ahumada", "G", "5", -1698, 2796, "torre"],
+		["La Cobreria", "G", "5", -1698, 2796, "cobreria"],
+		["Campos Agricolas", "G", "5", -1698, 2796, "campos"],
+		["Parque De Caravanas", "G", "5", -1698, 2796, "parque"],
+		["Ruinas", "G", "5", -1698, 2796, "ruinas"]
+    ]
+}

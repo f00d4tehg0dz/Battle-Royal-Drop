@@ -1,4 +1,4 @@
-const { spawnitems } = require('../borandomspawn.json');
+const { spawnitems } = require('../pubgkrandomspawn.json');
 // shuffle example https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php
 function shuffle(arra1) {
 	let ctr = arra1.length, temp, index;
@@ -18,9 +18,9 @@ function shuffle(arra1) {
 // console.log(shuffle(spawnitems[1]));
 
 module.exports = {
-	name: 'bodrop',
-	description: 'Randomized Drop Generator for Blackout',
-	usage: 'Display Blackout Drop',
+	name: 'pubgedrop',
+	description: 'Randomized Drop Generator for PUBG Erangel',
+	usage: 'Display PUBG Drop',
 	cooldown: 5,
 	execute(message) {
 		const hello = shuffle(spawnitems);
@@ -36,10 +36,10 @@ module.exports = {
 				'text': 'Share if you liked using this! Follow me on twitter _ok_adrian',
 			},
 			'thumbnail': {
-				'url': 'https://brdrop.com/blackout-files/images/' + `${image}` + '.png',
+				'url': 'https://brdrop.com/pub-files/images/' + `${image}` + '.png',
 			},
 			'image': {
-				'url': 'https://brdrop.com/blackout-files/images/' + `${image}` + '.png',
+				'url': 'https://brdrop.com/pub-files/images/' + `${image}` + '.png',
 			},
 			'fields': [
 				{
@@ -49,8 +49,8 @@ module.exports = {
 			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/blackout',
-				'icon_url': 'https://brdrop.com/blackout-files/images/fbimage2.png',
+				'url': 'https://brdrop.com/pubg',
+				'icon_url': 'https://brdrop.com/pub-files/images/fbimage2.png',
 			},
 		};
 		message.channel.send({ embed });

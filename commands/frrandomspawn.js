@@ -19,9 +19,8 @@ function shuffle(arra1) {
 
 module.exports = {
 	name: 'frdrop',
-	description: 'Randomized Drop Generator',
-	aliases: ['commands'],
-	usage: '[command name]',
+	description: 'Randomized Drop Generator for Fortnite',
+	usage: 'Display Fortnite Drop',
 	cooldown: 5,
 	execute(message) {
 		const hello = shuffle(spawnitems);
@@ -32,21 +31,26 @@ module.exports = {
 			//  'title':'**Land At: ' + `${drop}` + '** ```\nCoordinates:' + `${coor}` + '```',
 			'description': '**Land At: ' + `${drop}` + '** ```\nCoordinates:' + `${coor}` + '```',
 			'color': 14274056,
-			'timestamp': '2019-02-02T06:00:09.616Z',
 			'footer': {
-				'icon_url': 'https://cdn.discordapp.com/embed/avatars/0.png',
-				'text': 'Share if you liked using this!',
+				'icon_url': 'https://brdrop.com/images/fbimagealt.png',
+				'text': 'Share if you liked using this! Follow me on twitter _ok_adrian',
 			},
 			'thumbnail': {
-				'url': 'https://brdrop.com/fortnite/images/' + `${image}` + '.png',
+				'url': 'https://brdrop.com/fortnite-files/images/' + `${image}` + '.png',
 			},
 			'image': {
-				'url': 'https://brdrop.com/fortnite/images/' + `${image}` + '.png',
+				'url': 'https://brdrop.com/fortnite-files/images/' + `${image}` + '.png',
 			},
+			'fields': [
+				{
+					'name': 'Found this useful? Why Not Support me with a coffee!',
+					'value': 'http://ko-fi.com/I2I1QX9K',
+				},
+			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
 				'url': 'https://brdrop.com/fortnite',
-				'icon_url': 'https://brdrop.com/fortnite/images/fbimage2.png',
+				'icon_url': 'https://brdrop.com/fortnite-files/images/fbimage2.png',
 			},
 		};
 		message.channel.send({ embed });

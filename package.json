@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord-logger": "^1.0.1",
+    "discord.js": "^11.4.2",
+    "winston": "^3.2.1",
+    "winston-discord": "^0.2.0"
   }
 }
