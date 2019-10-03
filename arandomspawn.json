@@ -1,21 +1,19 @@
 {
 	"spawnitems":[
-		["Slum Lakes", "B", "1", -315, 211, "slum-lakes"],
-		["The Pit", "B", "3", -451, 320, "the-pit"],
-		["Artillery", "C", "3", -191, 732, "artillery"],
-		["Relay", "F", "3",  -298, 1091, "relay"],
-		["Wetlands", "G", "4", -436, 1049, "wetlands"],
-		["Cascades", "I", "3", -464, 569, "cascades"],
-		["Runoff", "J", "5", -541, 159, "runoff"],
-		["Bunker", "H", "2", -608, 466, "bunker"],
-		["Airbase", "H", "6", -749, 167, "airbase"],
-		["Bridges", "I", "8", -736, 810, "bridges"],
-		["Market", "F", "10", -931, 659, "market"],
-		["Hydro Dam", "D", "9", -839, 1076, "hydro-dam"],
-		["Skull Town", "G", "8", -1002, 437, "skull-town"],
-		["Thunderdome", "F", "5", -1123, 298, "thunderdome"],
-		["Water Treatment", "E", "4", -1245, 761, "water-treatment"],
-		["Repulsor", "D", "5", -999, 1050, "repulsor"],
-		["Swamps", "A", "5", -706, 1258, "swamps"]
+		["Capital City", "F", "5", -601.6000366210938, 795.3999633789062, "capital-city"],
+		["Train Yard", "D", "5", -650.40002, 520.2000, "train-yard"],
+		["Lava Fissure", "B", "5", -625.6000366210938, 282.5999755859375, "lava-fissure"],
+		["Drill Site", "C", "4", -519.6000061035156, 413, "drill-site"],
+		["Skyhook", "D", "2", -313.8000183105469, 515.2000122070312, "skyhook"],
+		["Thermal Station", "C", "8", -1022.2000122070, 405.800048828125, "thermal-station"],
+		["The Tree", "H", "9", -1169.40008544, 583.4000244140, "the-tree"],
+		["The Dome", "H", "10", -1272.60003662109, 1013.00006103, "the-dome"],
+		["Sorting Facility", "F", "8", -1028.6000366, 798.6000366, "sorting-facility"],
+		["Lava City", "H", "8", -1099.00006103, 1114.6000366, "lava-city"],
+		["Fuel Depot", "F", "6", -842.0000305175781, 738.40002441, "fuel-depot"],
+		["The Geyser", "H", "6", -850.800048828125, 1093.1999511, "the-geyser"],
+		["Overlook", "I", "4", -578.4000244140625, 1187.400024, "overlook"],
+		["Refinery", "H", "2", -293.8000183105469, 1015.20001220703, "refinery"],
+		["Epic Center", "G", "3", -434, 898.199951, "epic-center"]
     ]
 }
