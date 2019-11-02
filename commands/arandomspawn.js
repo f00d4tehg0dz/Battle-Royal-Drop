@@ -44,6 +44,12 @@ module.exports = {
 			'image': {
 				'url': 'https://brdrop.com/apexlegends/images/' + `${image}` + '.png',
 			},
+			'fields': [
+				{
+					'name': 'Support this Bot and other works over at Patreon',
+					'value': 'https://www.patreon.com/f00ddevelops',
+				},
+			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
 				'url': 'https://brdrop.com/apexlegends',

@@ -44,8 +44,8 @@ module.exports = {
 			},
 			'fields': [
 				{
-					'name': 'Found this useful? Why Not Support me with a coffee!',
-					'value': 'http://ko-fi.com/I2I1QX9K',
+					'name': 'Support this Bot and other works over at Patreon',
+					'value': 'https://www.patreon.com/f00ddevelops',
 				},
 			],
 			'author': {
