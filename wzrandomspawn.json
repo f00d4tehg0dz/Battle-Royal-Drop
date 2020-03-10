@@ -1,0 +1,20 @@
+{
+	"spawnitems":[
+		["International Airport", "C", "3", -974, 742, "airport"],
+		["Atlas Superstore", "C", "5",  -1304, 863, "atlas-superstore"],
+		["Crash Site", "E", "2", -425, 1451, "crash-site"],
+		["Downtown Tavorsk District", "G", "6", -1796, 1956, "downtown-district"],
+		["Gora Dam", "B", "1", -167, 551, "gora-dam"],
+		["Karst River Quarry", "H", "1",  -349, 2275, "karst-river-quary"],
+		["Krovnik Farmland", "J", "7",  -2056, 2774, "krovnik-farmland"],
+		["Lozoff Pass", "F", "2",   -523, 1656, "lozoff-pass"],
+		["Arklov Peak Military Base", "F", "1",  -203, 1635, "military-base"],
+		["Riverside", "I", "5", -1284, 2739, "riverside"],
+		["Jarvdinsk Spokmenik", "D", "1",  -211, 1045, "spomik"],
+		["Verdansk Stadium", "G", "5",  -1346, 1208, "stadium"],
+		["Storage Town",  "B", "5",  -1365, 501, "storage-town"],
+		["Verdansk Graveyard",  "C", "6",   -1672, 730, "verdansk-graveyard"],
+		["Verdansk Train Station",  "C", "7",  -1996, 925, "verdansk-train-station"],
+		["Zordaya Prison Complex",  "J", "10",  -2717, 2804, "zordaya-prison-complex"]
+    ]
+}

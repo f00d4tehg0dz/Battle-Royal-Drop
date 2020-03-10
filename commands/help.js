@@ -15,11 +15,12 @@ module.exports = {
 			// data.push(commands.map(command => command.name).join(', '));
 			// data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 			data.push(`\nTo Get a Fortnite Drop, Simply Type  \`${prefix}frdrop \``);
+			data.push(`\nTo Get a Warzone Drop, Simply Type  \`${prefix}wzdrop \``);
 			data.push(`\nTo Get a Apex Legends Drop, Simply Type  \`${prefix}aldrop \``);
 			data.push(`\nTo Get a Blackout Drop, Simply Type  \`${prefix}bodrop\``);
 			data.push(`\nTo Get a PUBG Erangel Drop, Simply Type  \`${prefix}pubgedrop \``);
 			data.push(`\nTo Get a PUBG Miramar Drop, Simply Type  \`${prefix}pubgmdrop \``);
-			data.push(`\nIf you found this DiscordBot useful. Why not show your support! http://ko-fi.com/I2I1QX9K`);
+			data.push(`\nIf you found this DiscordBot useful. Why not show your support! https://www.patreon.com/f00ddevelops`);
 
 			return message.author.send(data, { split: true })
 				.then(() => {
