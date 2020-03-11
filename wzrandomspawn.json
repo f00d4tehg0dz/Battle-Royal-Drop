@@ -15,6 +15,13 @@
 		["Storage Town",  "B", "5",  -1365, 501, "storage-town"],
 		["Verdansk Graveyard",  "C", "6",   -1672, 730, "verdansk-graveyard"],
 		["Verdansk Train Station",  "C", "7",  -1996, 925, "verdansk-train-station"],
+		["Zhokov Boneyard",  "B", "6",  -1789, 453, "zhokov-boneyard"],
+		["Barakett Promenade West",  "C", "8",  -2300, 693, "barakett-promenade-west"],
+		["Novi Grazna Hills",  "J", "10",  -2717, 2804, "novi-grazna-hills"],
+		["Barakett Promenade East",  "E", "8", -2218, 1385, "promenade-east"],
+		["Tavorsk Park",  "G", "9",  -2443, 1963, "park"],
+		["City of Verdansk Port",  "H", "9",  -2466, 2315, "port"],
+		["Gorengard Lumber Yard",  "J", "5",  -1462, 2910, "lumber-yard"],
 		["Zordaya Prison Complex",  "J", "10",  -2717, 2804, "zordaya-prison-complex"]
     ]
 }
