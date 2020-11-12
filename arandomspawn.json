@@ -1,19 +1,20 @@
 {
 	"spawnitems":[
-		["Capital City", "F", "5", -601.6000366210938, 795.3999633789062, "capital-city"],
-		["Train Yard", "D", "5", -650.40002, 520.2000, "train-yard"],
-		["Lava Fissure", "B", "5", -625.6000366210938, 282.5999755859375, "lava-fissure"],
-		["Drill Site", "C", "4", -519.6000061035156, 413, "drill-site"],
-		["Skyhook", "D", "2", -313.8000183105469, 515.2000122070312, "skyhook"],
-		["Thermal Station", "C", "8", -1022.2000122070, 405.800048828125, "thermal-station"],
-		["The Tree", "H", "9", -1169.40008544, 583.4000244140, "the-tree"],
-		["The Dome", "H", "10", -1272.60003662109, 1013.00006103, "the-dome"],
-		["Sorting Facility", "F", "8", -1028.6000366, 798.6000366, "sorting-facility"],
-		["Lava City", "H", "8", -1099.00006103, 1114.6000366, "lava-city"],
-		["Fuel Depot", "F", "6", -842.0000305175781, 738.40002441, "fuel-depot"],
-		["The Geyser", "H", "6", -850.800048828125, 1093.1999511, "the-geyser"],
-		["Overlook", "I", "4", -578.4000244140625, 1187.400024, "overlook"],
-		["Refinery", "H", "2", -293.8000183105469, 1015.20001220703, "refinery"],
-		["Epic Center", "G", "3", -434, 898.199951, "epic-center"]
+		["Docks", "D", "2", -190, 516, "docks"],
+		["Carrier", "C", "3", -296, 376, "carrier"],
+		["Rift", "G", "2", -274, 966, "rift"],
+		["Power Grid", "F", "3", -343, 725, "power-grid"],
+		["Turbine", "E", "4", -516, 628, "turbine"],
+		["Oasis", "B", "4", -498, 306, "oasis"],
+		["Energy Depot", "G", "4", -560, 894, "energy-depot"],
+		["Gardens", "I", "5", -570, 1124, "gardens"],
+		["Estates", "C", "6", -712, 442, "estates"],
+		["Grow Towers", "I", "6", -778, 1158, "grow-towers"],
+		["Hammond Labs", "F", "6", -732, 762, "hammond-labs"],
+		["Elysium", "A", "7", -876, 110, "lysium"],
+		["Hydroponics", "B", "7", -958, 242, "hydroponics"],
+		["Solar Array", "G", "7", -924, 868, "solar-array"],
+		["Orbital Cannon", "I", "8", -1034, 1198, "orbital-cannon"],
+		["Bonsai Plaza", "F", "9", -1208, 758, "bonsai-plaza"]
     ]
 }

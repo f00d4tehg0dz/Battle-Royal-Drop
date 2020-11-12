@@ -48,6 +48,7 @@ client.on('message', message => {
 
   if (!command) return;
 
+
   if (command.args && !args.length) {
     let reply = `You didn't provide any arguments, ${message.author}!`;
 
@@ -84,7 +85,9 @@ client.on('message', message => {
     message.reply('there was an error trying to execute that command!');
   }
 });
-
+client.on('error', error => {
+    console.error('The WebSocket encountered an error:', error);
+});
 // login to Discord with your app's token
 // with out prefix client.login(config.token)
 // with prefix:
