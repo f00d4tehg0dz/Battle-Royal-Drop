@@ -16,6 +16,7 @@ module.exports = {
 			// data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 			data.push(`\nTo Get a Fortnite Drop, Simply Type  \`${prefix}frdrop \``);
 			data.push(`\nTo Get a Warzone Drop, Simply Type  \`${prefix}wzdrop \``);
+			data.push(`\nTo Get a Warzone Rebirth Drop, Simply Type  \`${prefix}wzrbdrop \``);
 			data.push(`\nTo Get a Apex Legends Drop, Simply Type  \`${prefix}aldrop \``);
 			data.push(`\nTo Get a Blackout Drop, Simply Type  \`${prefix}bodrop\``);
 			data.push(`\nTo Get a PUBG Erangel Drop, Simply Type  \`${prefix}pubgedrop \``);

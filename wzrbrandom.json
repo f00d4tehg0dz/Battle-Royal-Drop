@@ -1,0 +1,15 @@
+{
+	"spawnitems":[
+	  ["Security Area", "B", "8", -2075, 507, "security"],
+      ["Construction Site", "C", "6", -1526, 786, "construction"],
+      ["Shore", "E", "4", -1160, 1292, "shore"],
+      ["Decon Zone", "G", "3", -820, 1892, "decon"],
+      ["BioWeapons Labs", "I", "2", -504, 2348, "bio"],
+      ["Chemical Eng.", "I", "4", -1056, 2292, "chemical"],
+      ["Harbor", "H", "6", -1596, 2048, "harbor"],
+      ["Factory", "F", "8", -2088, 1584, "factory"],
+      ["Living Quarters", "D", "8", -2192, 1036, "living"],
+      ["Prison Block", "F", "6", -1480, 1528, "prison"],
+      ["HeadQuarters", "E", "7", -1856, 1376, "headquarters"]
+    ]
+}
