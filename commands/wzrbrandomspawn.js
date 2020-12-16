@@ -1,4 +1,4 @@
-const { spawnitems } = require('../wzrandomspawn.json');
+const { spawnitems } = require('../wzrbrandomspawn.json');
 // shuffle example https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php
 function shuffle(arra1) {
 	let ctr = arra1.length, temp, index;
