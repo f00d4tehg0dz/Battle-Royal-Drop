@@ -49,7 +49,7 @@ module.exports = {
 			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/blackout',
+				'url': 'https://brdrop.com/blackout.php',
 				'icon_url': 'https://brdrop.com/blackout-files/images/fbimage2.png',
 			},
 		};

@@ -52,7 +52,7 @@ module.exports = {
 			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/apexlegends',
+				'url': 'https://brdrop.com/apexlegends.php',
 				'icon_url': 'https://brdrop.com/apexlegends/images/fbimage2.png',
 			},
 		};

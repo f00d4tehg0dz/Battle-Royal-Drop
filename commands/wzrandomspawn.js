@@ -50,7 +50,7 @@ module.exports = {
 			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/warzone',
+				'url': 'https://brdrop.com/warzone.php',
 				'icon_url': 'https://brdrop.com/warzone-files/images/fbimage2.png',
 			},
 		};

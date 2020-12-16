@@ -49,7 +49,7 @@ module.exports = {
 			],
 			'author': {
 				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/pubg',
+				'url': 'https://brdrop.com/pubg.php',
 				'icon_url': 'https://brdrop.com/images/fbimage2.png',
 			},
 		};
