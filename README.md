@@ -35,6 +35,8 @@ node index.js
 
 !wzdrop for Warzone
 
+!wzrbdrop for Warzone Rebirth
+
 !aldrop for Apex Legends
 
 !bodrop for Blackout
