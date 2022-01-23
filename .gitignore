@@ -77,4 +77,6 @@ typings/
 
 # Config
 config.json
-.history/
+
+# History
+.history
