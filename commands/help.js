@@ -1,19 +1,25 @@
-const { prefix } = require('../config.json');
+/** @format */
+
+const Command = require('../Structures/Command.js');
+
+const Discord = require('discord.js');
+
+const { prefix } = require('../Data/config.json');
 
 module.exports = {
 	name: 'help',
-	description: 'List all of my commands or info about a specific command.',
+	description: 'List all of all commands for Battle Royale Drop Generator',
 	aliases: ['commands'],
-	usage: '[command name]',
-	cooldown: 5,
-	execute(message, args) {
+	usage: 'All commands for Battle Royale Drop Generator',
+	type: 'BOTH',
+	slashCommandOptions: [],
+	permission: 'SEND_MESSAGES',
+	async run(message, args) {
 		const data = [];
 		const { commands } = message.client;
 
 		if (!args.length) {
 			data.push('Here\'s a list of all my commands:');
-			// data.push(commands.map(command => command.name).join(', '));
-			// data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 			data.push(`\nTo Get a Fortnite Drop, Simply Type  \`${prefix}frdrop \``);
 			data.push(`\nTo Get a Warzone Drop, Simply Type  \`${prefix}wzdrop \``);
 			data.push(`\nTo Get a Warzone Rebirth Drop, Simply Type  \`${prefix}wzrbdrop \``);
@@ -21,7 +27,8 @@ module.exports = {
 			data.push(`\nTo Get a Blackout Drop, Simply Type  \`${prefix}bodrop\``);
 			data.push(`\nTo Get a PUBG Erangel Drop, Simply Type  \`${prefix}pubgedrop \``);
 			data.push(`\nTo Get a PUBG Miramar Drop, Simply Type  \`${prefix}pubgmdrop \``);
-			data.push(`\nIf you found this DiscordBot useful. Why not show your support! https://www.patreon.com/f00ddevelops`);
+			data.push(`\nTo Get a Super People Drop, Simply Type  \`${prefix}superdrop \``);
+			data.push('\nIf you found this Discord Bot useful. Why not show your support! https://top.gg/bot/539897313691172874');
 
 			return message.author.send(data, { split: true })
 				.then(() => {
@@ -40,15 +47,5 @@ module.exports = {
 		if (!command) {
 			return message.reply('that\'s not a valid command!');
 		}
-
-		data.push(`**Name:** ${command.name}`);
-
-		if (command.aliases) data.push(`**Aliases:** ${command.aliases.join(', ')}`);
-		if (command.description) data.push(`**Description:** ${command.description}`);
-		if (command.usage) data.push(`**Usage:** ${prefix}${command.name} ${command.usage}`);
-
-		data.push(`**Cooldown:** ${command.cooldown || 3} second(s)`);
-
-		message.channel.send(data, { split: true });
 	},
 };

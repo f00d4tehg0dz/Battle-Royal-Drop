@@ -47,9 +47,7 @@ node index.js
 
 !help for list of commands
 
-!server for server info
 
-!user-info for user information
 ```
 
 ## Contributing

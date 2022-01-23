@@ -1,5 +1,11 @@
-const { spawnitems } = require('../wzrandomspawn.json');
-// shuffle example https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php
+/** @format */
+
+const Command = require('../Structures/Command.js');
+
+const Discord = require('discord.js');
+
+const { spawnitems } = require('../json/wzrandomspawn.json');
+
 function shuffle(arra1) {
 	let ctr = arra1.length, temp, index;
 	// While there are elements in the array
@@ -15,46 +21,43 @@ function shuffle(arra1) {
 	}
 	return arra1;
 }
-// console.log(shuffle(spawnitems[1]));
 
-module.exports = {
+module.exports = new Command({
 	name: 'wzdrop',
 	description: 'Randomized Drop Generator for Warzone',
 	usage: 'Display Warzone Drop',
-	cooldown: 5,
-	execute(message) {
+	type: 'BOTH',
+	slashCommandOptions: [],
+	permission: 'SEND_MESSAGES',
+	async run(message) {
+		const embed = new Discord.MessageEmbed();
 		const hello = shuffle(spawnitems);
 		const drop = hello[0].splice(0, 1);
 		const coor = hello[0].splice(0, 2);
 		const image = hello[0].splice(2, 6);
-		const embed = {
-			//  'title':'**Land At: ' + `${drop}` + '** ```\nCoordinates:' + `${coor}` + '```',
-			'description': '**Land At: ' + `${drop}` + '** ```\nCoordinates:' + `${coor}` + '```',
-
-			'color': 14274056,
-			'footer': {
-				'icon_url': 'https://brdrop.com/images/fbimagealt.png',
-				'text': 'Share if you liked using this! Follow me on twitter _ok_adrian',
-			},
-			'thumbnail': {
-				'url': 'https://brdrop.com/warzone-files/images/' + `${image}` + '.png',
-			},
-			'image': {
-				'url': 'https://brdrop.com/warzone-files/images/' + `${image}` + '.png',
-			},
-			'fields': [
+		embed
+			.setURL('https://brdrop.com/warzone.php')
+			.setAuthor(
+				'Battle Royale Drop Generator',
+				'https://brdrop.com/images/fbimagealt.png',
+				'https://brdrop.com/warzone.php',
+			)
+			.setDescription(
+				'**Land At: ' + `${drop}` + '** ```\nCoordinates:' + `${coor}` + '```',
+			)
+			.setColor(14274056)
+			.setThumbnail('https://brdrop.com/warzone-files/images/' + `${image}` + '.png')
+			.setTimestamp()
+			.setImage(
+				'https://brdrop.com/warzone-files/images/' + `${image}` + '.png',
+			)
+			.setFooter({ text: 'Share if you liked using this! Follow me on twitter _ok_adrian', iconURL: 'https://brdrop.com/images/fbimagealt.png' })
+			.addFields (
 				{
-					'name': 'Support this Bot and other works over at Patreon',
-					'value': 'https://www.patreon.com/f00ddevelops',
+					name: 'Support this Bot by up-voting on top.gg!',
+					value: 'https://top.gg/bot/539897313691172874',
 				},
-			],
-			'author': {
-				'name': 'Battle Royale Drop Generator',
-				'url': 'https://brdrop.com/warzone.php',
-				'icon_url': 'https://brdrop.com/warzone-files/images/fbimage2.png',
-			},
-		};
-		message.channel.send({ embed });
-		// message.channel.send(`${message.author.username}\xa0drop here:\xa0${drop}\nCoordinates\xa0${coor}`);
+			),
+		message.reply({ embeds: [embed] });
 	},
-};
+});
