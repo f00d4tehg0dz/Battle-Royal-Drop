@@ -23,7 +23,7 @@ function shuffle(arra1) {
 }
 
 module.exports = new Command({
-	name: 'spdrop',
+	name: 'superdrop',
 	description: 'Randomized Drop Generator for SuperPeople',
 	usage: 'Display SuperPeople Drop',
 	type: 'BOTH',
